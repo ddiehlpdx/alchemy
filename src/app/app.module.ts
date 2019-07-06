@@ -35,11 +35,17 @@ import {
 
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { LoginComponent } from './login/login.component';
+import { TopnavComponent } from './topnav/topnav.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
+    LoginComponent,
+    TopnavComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
