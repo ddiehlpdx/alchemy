@@ -27,7 +27,7 @@ export class ApiService {
     const method = 'GET';
     const nonce = Date.now();
     const preHash = endpoint + method + nonce + JSON.stringify(request);
-    const key = new Buffer(this.privateKey, 'base64');
+    // const key = new Buffer(this.privateKey, 'base64');
 
     return {};
   }
