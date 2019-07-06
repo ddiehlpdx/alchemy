@@ -1,0 +1,8 @@
+mat-card {
+  max-width: 650px;
+  max-height: 500px;
+  position: relative;
+  top: 250px;
+  margin: 0 auto;
+  
+}
